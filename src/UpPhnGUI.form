@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UpPhnGUI">
+  <grid id="27dc6" binding="panelUpdate" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4091876"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1cc49" class="javax.swing.JLabel" binding="aIDLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16"/>
+          <text value="Admin ID:"/>
+        </properties>
+      </component>
+      <component id="47227" class="javax.swing.JLabel" binding="LNLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16"/>
+          <text value="Last Name:"/>
+        </properties>
+      </component>
+      <component id="c2df4" class="javax.swing.JLabel" binding="UpfLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16"/>
+          <text value="Update Phone Here: "/>
+        </properties>
+      </component>
+      <component id="4bb3f" class="javax.swing.JButton" binding="SubmitButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4932949"/>
+          <font name="Arial" size="16"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="a39eb" class="javax.swing.JButton" binding="BackButton">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4932949"/>
+          <font name="Arial" size="16"/>
+          <text value="Go Back"/>
+        </properties>
+      </component>
+      <component id="a080d" class="javax.swing.JLabel" binding="aIDLabelE">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16"/>
+          <text value="Admin ID:"/>
+        </properties>
+      </component>
+      <component id="c0648" class="javax.swing.JLabel" binding="LNLabelE">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16"/>
+          <text value="Last Name:"/>
+        </properties>
+      </component>
+      <component id="480" class="javax.swing.JTextField" binding="UpTextField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4932949"/>
+        </properties>
+      </component>
+      <component id="d3873" class="javax.swing.JLabel" binding="UpdateLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="381" height="68"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial" size="28" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Update "/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="1"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
